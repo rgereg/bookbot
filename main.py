@@ -10,7 +10,7 @@ def main():
     num_words = count_words(book_text)
     print(f"Found {num_words} total words")
 
-    stats = count_chars(book)
+    stats = count_chars(book_text)
     
 def get_book_text(filepath):
     
