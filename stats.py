@@ -18,7 +18,9 @@ def count_chars(input_text):
     for letter in lower_text:
         if letter in counter_text:
             counter_text[letter] +=1
-            print(counter_text[letter])
+            #print(counter_text[letter])
         else:
             counter_text[letter] = 1
-            print(counter_text[letter])
+            #print(counter_text[letter])
+
+    return counter_text           
