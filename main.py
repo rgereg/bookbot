@@ -1,5 +1,7 @@
 from stats import count_words
 from stats import count_chars
+from stats import counter
+
 book = "./books/frankenstein.txt"
 
 
@@ -12,12 +14,16 @@ def main():
 
     stats = count_chars(book_text)
     print(stats)
-    
+
+    blab = counter(stats)
+    print
+
 def get_book_text(filepath):
     
     with open(filepath) as f:
         file_contents = f.read()
 
     return file_contents
+
 
 main()

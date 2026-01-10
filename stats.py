@@ -22,5 +22,12 @@ def count_chars(input_text):
         else:
             counter_text[letter] = 1
             #print(counter_text[letter])
-
     return counter_text           
+
+
+def counter(input_dict):
+    list_of_dicts = []
+    for entry in input_dict:
+        #print(f"{entry}: {input_dict[entry]}")
+        list_of_dicts.append({entry: input_dict[entry]})
+    return list_of_dicts
