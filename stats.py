@@ -22,7 +22,7 @@ def count_chars(input_text):
         else:
             counter_text[letter] = 1
             #print(counter_text[letter])
-    return counter_text           
+    return counter_text
 
 
 def counter(input_dict):
